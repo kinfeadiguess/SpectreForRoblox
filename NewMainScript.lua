@@ -56,7 +56,7 @@ local function finishLoading()
 				if shared.SpectreDeveloper then
 					loadstring(readfile('spectre/loader.lua'), 'loader')()
 				else
-					loadstring(game:HttpGet('https://raw.githubusercontent.com/YOUR_USERNAME/SpectreCompiled/'..readfile('spectre/profiles/commit.txt')..'/loader.lua', true), 'loader')()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/kinfeadiguess/SpectreCompiled/'..readfile('spectre/profiles/commit.txt')..'/loader.lua', true), 'loader')()
 				end
 			]]
 
